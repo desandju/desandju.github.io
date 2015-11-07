@@ -23,6 +23,10 @@
 	text-shadow: 0 1px 2px rgba(0,0,0,.9);
 }
 
+#myCarousel .carousel-indicators {
+	bottom: 10px;
+}
+
 #myCarousel .item {
 	max-height: 500px;
 }
