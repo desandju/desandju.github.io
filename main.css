@@ -1,7 +1,21 @@
+body {
+	background: url("images/symphony-ltblue.png");
+	/*background: url("images/flowers.jpg");*/
+}
+
+.content-container {
+	/*height: 100%;*/
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
 #myCarousel {
-	max-width: 800px;
-	margin-right: auto;
-	margin-left: auto;
+	padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #myCarousel .carousel-control {
@@ -29,4 +43,16 @@
 
 #myCarousel .item {
 	max-height: 500px;
+}
+
+.bottom-section {
+	margin: 20px 20px 0 20px;
+	padding-bottom: 20px;
+}
+
+.desAndJuTitle {
+	text-align: center;
+	font-size: 50px;
+	font-family: cursive;
+	text-shadow: 0px 0px 10px skyblue;
 }
