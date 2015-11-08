@@ -4,7 +4,7 @@ body {
 }
 
 .content-container {
-	/*height: 100%;*/
+	min-height: 100%;
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
