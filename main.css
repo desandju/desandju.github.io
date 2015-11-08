@@ -8,14 +8,17 @@ body {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 20px;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
 #myCarousel {
-	padding-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    /*box-shadow: 0px 0px 20px 6px lightblue;*/
+    box-shadow: 0px 0px 12px 0px #aaa;
+    border: 9px solid white;
 }
 
 #myCarousel .carousel-control {
@@ -38,7 +41,7 @@ body {
 }
 
 #myCarousel .carousel-indicators {
-	bottom: 10px;
+	bottom: 4px;
 }
 
 #myCarousel .item {
