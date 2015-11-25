@@ -4,6 +4,11 @@ body {
 	/*background: url("images/flowers.jpg");*/
 }
 
+.outer-container {
+	height: 100%;
+	overflow: scroll;
+}
+
 .content-container {
 	min-height: 100%;
 	min-width: 320px;
