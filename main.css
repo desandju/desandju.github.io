@@ -6,6 +6,7 @@ body {
 
 .content-container {
 	min-height: 100%;
+	min-width: 320px;
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
@@ -24,7 +25,7 @@ body {
 
 #myCarousel .carousel-control {
 	background-image: none;
-	width: 12%;
+	width: 8%;
 }
 
 #myCarousel .carousel-control .glyphicon {
@@ -63,9 +64,82 @@ body {
 	font-family: 'Parisienne', cursive;
 	font-size: 62px;
 	text-shadow: 4px 4px 4px #bbb;
+	text-shadow: 0px 0px 10px #42C0FB;
 }
 
-.bottom-section .desc {
-	font-family: 'Bad Script', cursive;
+.bottom-section .section {
+	margin-bottom: 36px;
+}
+
+.bottom-section .section .hdr {
+	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 42px;
+	text-shadow: 0px 0px 10px #42C0FB;
+}
+
+.bottom-section .section .desc {
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 22px;
+	text-align: justify;
+	display: inline-block;
+}
+
+.bottom-section .celebration.section .desc {
+	vertical-align: top;
+	width: 48%;
+}
+.bottom-section .celebration.section .details {
+	display: inline-block;
+	width: 50%;
+}
+
+.bottom-section .section .sub-hdr {
+	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 32px;
+	line-height: 26px;
+	margin-top: 12px;
+	text-shadow: 0px 0px 2px #42C0FB;
+}
+
+.bottom-section .section .sub-desc {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+@media only screen 
+and (max-width : 480px) {
+	#myCarousel {
+		border: 6px solid white;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	#myCarousel .carousel-control .glyphicon {
+		width: 28px;
+		height: 28px;
+		font-size: 28px;
+	}
+	#myCarousel .carousel-indicators {
+		bottom: -4px;
+	}
+	#myCarousel .carousel-indicators li {
+		width: 8px;
+		height: 8px;
+		margin: 1px;
+	}
+
+	.desAndJuTitle {
+		font-size: 46px;
+	}
+	.bottom-section .celebration.section .desc {
+		vertical-align: top;
+		width: 100%;
+	}
+	.bottom-section .celebration.section .details {
+		display: block;
+		width: 100%;
+		margin-top: 18px;
+	}
 }
